@@ -1,4 +1,4 @@
-zimport React from 'react'
+import React from 'react'
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom'
 import HomePage from './pages/home/HomePage'
 import NoPage from './pages/nopage/NoPage'
@@ -36,13 +36,12 @@ function App() {
         <Route path="/user-dashboard" element={
         <ProtectedRouteforUser>
           <UserDashboard />
-        </ProtectedRouteforUser>
+         </ProtectedRouteforUser>
           } />
         <Route path="/admin-dashboard" element={
         <ProtectedRouteforAdmin>
           <AdminDashboard />
-        </ProtectedRouteforAdmin>
-      
+         </ProtectedRouteforAdmin>
         }
            />
         <Route path="/addproduct" element={
