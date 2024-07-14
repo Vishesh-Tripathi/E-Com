@@ -34,14 +34,14 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/category/:categoryname" element={<CategoryPage/>} />
         <Route path="/user-dashboard" element={
-        <ProtectedRouteforUser>
+{/*         <ProtectedRouteforUser> */}
           <UserDashboard />
-         </ProtectedRouteforUser>
+         // </ProtectedRouteforUser>
           } />
         <Route path="/admin-dashboard" element={
-        <ProtectedRouteforAdmin>
+{/*         <ProtectedRouteforAdmin> */}
           <AdminDashboard />
-         </ProtectedRouteforAdmin>
+      //   </ProtectedRouteforAdmin>
         }
            />
         <Route path="/addproduct" element={
