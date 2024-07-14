@@ -6,3 +6,5 @@ node_modules/.vite/deps/@material-tailwind_react.js
 node_modules/.cache/gh-pages/https!github.com!Vishesh-Tripathi!E-Manage.git
 node_modules/.vite/deps/_metadata.json
 node_modules/.vite/deps/@material-tailwind_react.js
+node_modules/@esbuild/win32-x64/esbuild.exe
+node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node
