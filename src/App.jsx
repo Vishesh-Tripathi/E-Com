@@ -1,4 +1,4 @@
-import React from 'react'
+zimport React from 'react'
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom'
 import HomePage from './pages/home/HomePage'
 import NoPage from './pages/nopage/NoPage'
@@ -34,13 +34,14 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/category/:categoryname" element={<CategoryPage/>} />
         <Route path="/user-dashboard" element={
-{/*         <ProtectedRouteforUser> */}
+        <ProtectedRouteforUser>
           <UserDashboard />
-       
+        </ProtectedRouteforUser>
           } />
         <Route path="/admin-dashboard" element={
-{/*         <ProtectedRouteforAdmin> */}
+        <ProtectedRouteforAdmin>
           <AdminDashboard />
+        </ProtectedRouteforAdmin>
       
         }
            />
