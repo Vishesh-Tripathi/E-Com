@@ -36,12 +36,12 @@ function App() {
         <Route path="/user-dashboard" element={
         <ProtectedRouteforUser>
           <UserDashboard />
-        </ProtectedRouteforUser>
+         </ProtectedRouteforUser>
           } />
         <Route path="/admin-dashboard" element={
         <ProtectedRouteforAdmin>
           <AdminDashboard />
-        </ProtectedRouteforAdmin>
+         </ProtectedRouteforAdmin>
         }
            />
         <Route path="/addproduct" element={

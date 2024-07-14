@@ -78,7 +78,7 @@ export default function Navbar() {
 
 
 
-
+console.log(user?.Role)
 
       
 
@@ -197,7 +197,8 @@ export default function Navbar() {
                            <Menu.Item>
                              {/* {({ active }) => ( */}
                               
-                              {label == true ? (
+                              {user?.Role == "admin" ? (
+                                
                                  <a
                                  href="/admin-dashboard"
                                  className='block  px-4 py-2 text-sm text-gray-700'
