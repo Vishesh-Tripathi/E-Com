@@ -5,6 +5,7 @@ const conf={
     appwritecollectionid:String(import.meta.env.VITE_APPWRITE_COLLECTION_ID),
     appwritecollectionid2:String(import.meta.env.VITE_APPWRITE_COLLECTION_ID2),
     appwritebucketid:String(import.meta.env.VITE_BUCKET_COLLECTION_ID),
-    appwritecollectionidorder:String(import.meta.env.VITE_APPWRITE_COLLECTION_ID_ORDER)
+    appwritecollectionidorder:String(import.meta.env.VITE_APPWRITE_COLLECTION_ID_ORDER),
+    appwritecollectionidcart:String(import.meta.env.VITE_APPWRITE_COLLECTION_ID_CART)
 }
 export default conf;

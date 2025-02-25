@@ -10,7 +10,7 @@ const AdminDashboard = () => {
     const[email,setEmail]= useState("Please Login")
     const user=JSON.parse(localStorage.getItem('user'));
     // const url=(localStorage.getItem('avatar'));
-    const url = "https://norrismgmt.com/wp-content/uploads/2020/05/24-248253_user-profile-default-image-png-clipart-png-download.png";
+    const url=(localStorage.getItem('ImageURL'));
   console.log(url);
     
     useEffect(()=>{
