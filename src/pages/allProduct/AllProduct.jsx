@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router";
 import Layout from "../../components/layout/Layout";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, deleteFromCart,saveCartAsync } from "../../redux/cartSlice";
+import { addToCart, deleteFromCart } from "../../redux/cartSlice";
 import toast from "react-hot-toast";
 import { useContext, useEffect } from "react";
 import MyContext from "../../context/MyContext";
@@ -20,7 +20,7 @@ const AllProduct = () => {
 
     const addcart = (item)=>{
         dispatch(addToCart(item));
-        dispatch(saveCartAsync({ email,item }));
+        
         toast.success("Add to cart");
     }
     const deleteCart =(item)=>{
